@@ -1,0 +1,140 @@
+body:after {
+    content: '';
+    background: url('tablet-background.jpg') no-repeat center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.075; /* Here is your opacity */
+}
+/*Logo*/
+.logo {
+    width: 70px;
+}
+/* Mobile Navigation Menu */
+.exit {
+    font-size: 70px !important;
+    z-index: 1000000;
+}
+.burger {
+    font-size: 50px !important;
+}
+.mobile__company-name {
+    font-size: 50px;
+}
+.mobile__links {
+    font-size: 24px;
+}
+/*Background Video Header*/
+.overlay__company-title {
+    font-size: 80px;
+}
+.overlay__title {
+    font-size: 35px;
+}
+.overlay__subtitle {
+    font-size: 35px;
+}
+
+/* Main/Cards */
+.card__circle {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: var(--boxlessRed);
+    position: relative;
+    top: 80px;
+    right: 60px;
+}
+.card__title {
+    display: none;
+}
+.card__circle-text {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 48px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.card__circle-text--1 {
+    position: relative;
+    top: 33px;
+}
+.card__card {
+    width: 450px;
+    padding-bottom: 0;
+}
+.card__info {
+    padding-top: 65px;
+    position: relative;
+    top: 25px;
+}
+.card__quote-container {
+    width: 450px;
+}
+.card__quote {
+  width: 280px;
+  margin: auto;
+}
+.card__arrow { 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 400px;
+}
+
+/* Contact Form */
+.form {
+    width: 350px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+.form__title {
+    font-size: 30px;
+}
+.form__subtitle {
+    font-size: 20px;
+}
+form > label {
+    font-size: 18px;
+}
+form > input {
+    width: 300px;
+    font-size: 18px;
+}
+form > textarea {
+  width: 300px;
+  font-size: 18px;
+  height: 130px;
+}
+.form__submit {
+    width: 300px;
+}
+
+/*FOOTER | CONTACT*/
+.footer {
+    background-position: 0px -1150px;
+}
+
+/* Contact Us */
+.contact-us__title {
+    font-size: 30px;
+}
+.contact-us__address {
+    font-size: 18px;
+}
+.contact-us__phone {
+    font-size: 18px;
+}
+.contact-us__email {
+    font-size: 18px;
+}
+
+/*Jump to Top*/
+.jump {
+    visibility: visible;
+}
